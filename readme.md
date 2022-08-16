@@ -29,6 +29,16 @@ I imported this from my desktop
 npm i @types/express cors
 ```
 
+## Install MongoDB 
+```
+npm i mongodb
+```
+## In the credentials.ts 
+```
+export const uri: string= ''
+```
+
+
 ## In the api.ts
 ```
 import express, {Request, Response} from "express"
@@ -47,3 +57,4 @@ app.listen(PORT, () => {
     console.log("we started on port", PORT)
 })
 ```
+
