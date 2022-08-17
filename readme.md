@@ -58,3 +58,26 @@ app.listen(PORT, () => {
 })
 ```
 
+# Enhancements
+
+## To create a new branch in git: 
+```
+git checkout -b enhancements
+```
+
+## Adding Directories in the SRC to avoid coupling 
+### /src
+    /db 
+        db.ts
+    /models
+        photos-models.ts
+    /routers
+        photos-routers.ts
+    /services
+        photos-services.ts
+    index.ts
+
+
+```
+mkdir sr src/models src/services src/db src/routers
+```
